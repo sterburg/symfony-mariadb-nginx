@@ -35,7 +35,7 @@
     nginx_mime_file_path: /etc/nginx/mime.types
     nginx_pidfile: /var/run/nginx.pid
   roles:
-  - role: chouseknecht.nginx-container
+  - role: j00bar.nginx-container
   - role: configure-php-fpm
   - role: supervisord
 
